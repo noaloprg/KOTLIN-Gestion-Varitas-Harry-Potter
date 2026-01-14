@@ -2,8 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
 
     <TextView
         android:id="@+id/tvInfoVarita"
@@ -12,12 +13,12 @@
         android:layout_height="35dp"
         android:layout_marginTop="4dp"
         android:text="Info varita"
-        android:textSize="25dp"
+        android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         />
 
     <TextView
@@ -27,10 +28,10 @@
         android:layout_height="35dp"
         android:layout_marginTop="36dp"
         android:text="Personaje"
-        android:textSize="22dp"
+        android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textColor="@color/burdeos"/>
+        android:textColor="@color/white"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

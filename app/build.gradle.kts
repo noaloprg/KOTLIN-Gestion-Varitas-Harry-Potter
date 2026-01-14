@@ -33,7 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-    buildFeatures{
+    buildFeatures {
         viewBinding = true
     }
 }
@@ -49,5 +49,13 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+    // Retrofit: La librería que hace las llamadas a internet
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    // Gson Converter: Traduce el JSON (texto) a Objetos Kotlin
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    // Corrutinas (generalmente vienen por defecto, pero asegúrate)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+    // Para usar lifecycleScope
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
 
 }

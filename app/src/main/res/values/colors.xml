@@ -2,7 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="rojoCobre">#b14205</color>
+    <color name="rojo">#CC0000</color>
+    <color name="verde">#00CC00</color>
     <color name="burdeos">#3c1c09</color>
     <color name="azul">#a1bcd4</color>
     <color name="amarilloPobre">#d9ae48</color>
