@@ -24,7 +24,7 @@ class VaritasAdapter(context: Context, private val varitas: List<Varita>) :
 
         //asignacion de valores a los controladores
         titulo.text = String.format("%s - %s ", varitas[position].madera, varitas[position].nucleo)
-        subtitulo.text = varitas[position].personaje
+        subtitulo.text = varitas[position].nombrePersonaje
 
         //devuelve la vista con los datos asignados
         return vista

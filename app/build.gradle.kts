@@ -58,4 +58,6 @@ dependencies {
     // Para usar lifecycleScope
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
 
+    implementation("androidx.fragment:fragment-ktx:1.8.9")
+
 }

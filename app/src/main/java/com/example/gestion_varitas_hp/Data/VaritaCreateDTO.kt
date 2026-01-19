@@ -1,14 +1,11 @@
 package com.example.gestion_varitas_hp.Data
 
-import com.google.gson.annotations.SerializedName
 import java.math.BigDecimal
 
-data class Varita(
-    val id : Int,
+data class VaritaCreateDTO(
     val madera: String,
     val nucleo: String,
     val longitud: BigDecimal,
     val rota: Boolean,
-    val nombrePersonaje: String
 ) {
 }
